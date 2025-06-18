@@ -8,6 +8,7 @@ on:
   push:
   schedule:
     - cron: '0/5 * * * *'  # Runs at midnight every day
+  workflow_dispatch:
 jobs:
   # This workflow contains a single job called "build"
   build:
